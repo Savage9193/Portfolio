@@ -86,7 +86,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     gap: 5rem;
     margin: 4rem auto;
     padding: 0 1rem;
@@ -279,14 +279,14 @@
   @media (max-width:1300px) {
     .hero-section {
       flex-direction: column;
-      /* justify-content: center;
+      justify-content: center;
       align-items: center;
-      text-align: center; */
+      text-align: center;
       padding-top: -1rem;
       padding-bottom: 3rem;
     }
     .hero-section-description {
-      /* text-align: center; */
+      text-align: center;
       margin: auto;
     }
     .faded-text {
