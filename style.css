@@ -86,7 +86,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 5rem;
     margin: 4rem auto;
     padding: 0 1rem;
@@ -286,7 +286,7 @@
       padding-bottom: 3rem;
     }
     .hero-section-description {
-      text-align: center;
+      /* text-align: center; */
       margin: auto;
     }
     .faded-text {
