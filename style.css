@@ -417,7 +417,7 @@ a{
   
   .project-subHeading{
     width:70%;
-    font-size:16px;
+    font-size:18px;
     font-style: italic;
   }
 
@@ -448,12 +448,12 @@ a{
   }
 
   #project1{
-    background-image: url(./images/projects/Project1.png);
+    background-image: url(pro1.png);
   }
 
   #project2{
     margin-left:120px;
-    background-image: url(./images/projects/Project2.png);
+    background-image: url(pro2.png);
   }
   #project3{
     background-image: url(./images/projects/Project3.png);
