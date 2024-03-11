@@ -334,6 +334,7 @@
   }
   #btn-top {
     display: none;
+    text-decoration: none;
   }
   #btn-bottom {
     margin-top: -7rem;
