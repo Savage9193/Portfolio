@@ -310,12 +310,12 @@
                                 Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
                             </button>
                             <script>
-                                function submitForm(){
-                                    document.contact.submit();
-                                    document.contact.reset();
-
-                                }
-                            </script>
+                                document.getElementById("myForm").addEventListener("submit", function() {
+                                  // Clear the form fields after submission
+                                  document.getElementById("email").value = "";
+                                  document.getElementById("message").value = "";
+                                });
+                                </script>
                         </div>
                     </form>
                 </div>
