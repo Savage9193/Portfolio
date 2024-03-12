@@ -290,7 +290,7 @@
 
                 <div class="contactus-form-container">
                     <form class="form" action="https://formspree.io/f/mpzvlkrz"
-                    method="POST">
+                    method="POST" name="contact">
 
                         <div class="formfield-container">
                             <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" required autocomplete="off">
@@ -309,6 +309,13 @@
                             <button type="submit" class="btn-pink" id="submit-btn">
                                 Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
                             </button>
+                            <script>
+                                function submitForm(){
+                                    document.contact.submit();
+                                    document.contact.reset();
+
+                                }
+                            </script>
                         </div>
                     </form>
                 </div>
