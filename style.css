@@ -314,6 +314,7 @@
 
 #btn-bottom {
   display: none;
+  text-decoration: none;
 }
 
 @media (max-width: 1300px) {
@@ -339,6 +340,7 @@
   #btn-bottom {
     margin-top: -7rem;
     display: block;
+    
   }
   .hero-section-right {
     margin-top: -6em;
