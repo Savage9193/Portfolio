@@ -293,15 +293,15 @@
                     method="POST" name="contact">
 
                         <div class="formfield-container">
-                            <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" required autocomplete="off">
+                            <input class="formfield" type="text" name="name" id="name" placeholder="Enter your name" required autocomplete="off">
 
 
-                            <input class="formfield" type="email" name="email" id=""
+                            <input class="formfield" type="email" name="email" id="email"
                                 placeholder="demo@gmail.com" required required autocomplete="off">
 
-                            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject" required required autocomplete="off">
+                            <input class="formfield" type="text" name="subject" id="subject" placeholder="Enter your subject" required required autocomplete="off">
 
-                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                            <textarea name="message" id="message" cols="30" rows="10" class="formfield formfield-textarea"
                                 placeholder="Enter your message" required required autocomplete="off"></textarea>
                         </div>
 
@@ -312,10 +312,11 @@
                             <script>
                                 document.querySelector(".form").addEventListener("submit", function() {
                                     // Clear the form fields after submission
-                                    document.getElementsByName("email")[0].value = "";
-                                    document.getElementsByName("message")[0].value = "";
-                                    document.getElementsByName("subject")[0].value = "";
-                                    document.getElementsByName("name")[0].value = "";
+                                    document.getElementsById("name")[0].value = "";
+                                    document.getElementsById("email")[0].value = "";
+                                    document.getElementsById("subject")[0].value = "";
+                                    document.getElementsById("message")[0].value = "";
+                                    
                                 });
                             </script>
                         </div>
