@@ -309,18 +309,21 @@
                             <button type="submit" class="btn-pink" id="submit-btn">
                                 Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
                             </button>
-                            <script>
-                                document.querySelector(".form").addEventListener("submit", function() {
-                                    // Clear the form fields after submission
-                                    document.getElementsById("name")[0].value = "";
-                                    document.getElementsById("email")[0].value = "";
-                                    document.getElementsById("subject")[0].value = "";
-                                    document.getElementsById("message")[0].value = "";
-                                    
-                                });
-                            </script>
+                            
                         </div>
                     </form>
+                    <script>
+                                
+                        document.querySelector(".form").addEventListener("submit", function() {
+                            // Clear the form fields after submission
+                            console.log("called");
+                            document.getElementsById("name")[0].value = "";
+                            document.getElementsById("email")[0].value = "";
+                            document.getElementsById("subject")[0].value = "";
+                            document.getElementsById("message")[0].value = "";
+                            
+                        });
+                    </script>
                 </div>
             </div>
 
