@@ -314,19 +314,20 @@
                     </form>
                     <script>
                         document.querySelector(".form").addEventListener("submit", function(event) {
-                            // Prevent the default form submission
-                            event.preventDefault();
-                    
                             // Clear the form fields after submission
-                            document.getElementById("A").value = "";
+                            document.getElementById("name").value = "";
                             document.getElementById("email").value = "";
                             document.getElementById("subject").value = "";
                             document.getElementById("message").value = "";
-                            
+                    
+                            // Prevent the default form submission
+                            event.preventDefault();
+                    
                             // Submit the form programmatically
                             document.querySelector(".form").submit();
                         });
                     </script>
+                    
                     
                 </div>
             </div>
