@@ -54,8 +54,17 @@
                         software developer.
                     </div>
 
+                    <butto  class="btn-pink" id="btn-top">
+                    <a href="tel:+919193114461" ></a>Hire me
+                </butto>
+
+                    <script>
+                      document.getElementById("btn-top").addEventListener("click", function(event) {
+                        event.preventDefault(); // Prevent the default behavior of the link
+                        window.location.href = "tel:+919193114461";
+                      });
+                    </script>
                     
-                    <button class="btn-pink" id="btn-top" onclick="window.location.href='tel:+919193114461'">Hire me</button>
                     
                 </div>
 
