@@ -65,6 +65,32 @@
   font-weight: bold;
   transition: all 0.8s linear;
 }
+.daynight {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 2em;
+}
+.daynight ion-icon:nth-child(2),
+#wrapper.night .daynight ion-icon:nth-child(1) {
+  display: none;
+}
+#wrapper.night .daynight ion-icon:nth-child(2) {
+  display: block;
+}
+#wrapper.night {
+  background: #333;
+}
+#wrapper.night .daynight {
+  color: #fff;
+  background: #444;
+}
 
 @media (max-width: 1500px) {
   .nav-items {
@@ -94,18 +120,49 @@
 
 .fadedtext {
   user-select: none;
-  font-size: 7em;
+  font-size: 8em;
   color: rgb(231, 231, 231);
-
-  bottom: -16%;
-  left: -5%;
+ /* border: 2px solid black; */
+ /* height: 100px;
+ width: 780px; */
+  bottom: -96px;
+  left: -13%;
   z-index: -0;
-
+  /* display: flex;
+  flex-direction: row;
+  background-color:cadetblue;
+  border-radius: 15px; */
   font-weight: bold;
   transition: all 3s;
 
   position: absolute;
 }
+.BOX1{
+  height: 82px;
+  width: 350px;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+.BOX2{
+  height: 82px;
+  width: 350px;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+.BOX3{
+  height: 82px;
+  width: 350px;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2%;}
 
 .hero-section-left {
   display: flex;
@@ -515,17 +572,17 @@
 }
 
 #project1 {
-  background-image: url(pro1.png);
+  background-image: url(FaceRecog.png);
 }
 #project2 {
-  background-image: url(pro2.png);
+  background-image: url(utubeclone.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(projects/Project3.png);
+  background-image: url(pro1.png);
 }
 #project4 {
-  background-image: url(projects/Project4.png);
+  background-image: url(pro2.png);
   margin-left: 120px;
 }
 
@@ -891,4 +948,10 @@ footer {
   .footer-faded-text {
     display: none;
   }
+}
+.BOX91{
+  margin-top: 20px;
+  height: 40px;
+  width: 500px;
+  border: 2px solid black;
 }
