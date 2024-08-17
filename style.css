@@ -6,6 +6,7 @@
   /* box-sizing: border-box; */
   scroll-behavior: smooth;
   font-family: "Be Vietnam Pro", sans-serif;
+  
 }
 
 :root {
@@ -29,6 +30,7 @@
   align-items: center;
   padding-top: 1rem;
 }
+
 
 .logo-container {
   display: flex;
@@ -409,6 +411,7 @@
 .project-section {
   background-color: rgb(231, 231, 231);
   margin-top: 4rem;
+  
 }
 
 .page-header {
@@ -575,19 +578,24 @@
   background-image: url(dahsHub.png);
 }
 #project2 {
-  background-image: url(FaceRecog.png);
+  background-image: url(dailyDsa.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(utubeclone.png);
+  background-image: url(FaceRecog.png);
+  
 }
 #project4 {
-  background-image: url(pro1.png);
+  background-image: url(utubeclone.png);
   margin-left: 120px;
 }
 #project5 {
+  background-image: url(pro1.png);
+  
+}
+#project6 {
   background-image: url(pro2.png);
-  margin-right: 120px;
+  margin-left: 120px;
 }
 
 @media (max-width: 1300px) {
@@ -630,11 +638,16 @@
   #project2 {
     margin-left: 0;
   }
+  #project6 {
+    margin-left: 0;
+  }
   #project4 {
     margin-left: 0;
   }
   .project-skill-container {
-    width: 100%;
+    width:100%;
+    display: inline;
+    
   }
   .project-skill {
     width: 35px;
