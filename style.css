@@ -575,27 +575,31 @@
 }
 
 #project1 {
-  background-image: url(dahsHub.png);
+  background-image: url(bookstore.png);
 }
 #project2 {
-  background-image: url(dailyDsa.png);
+  background-image: url(dahsHub.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(FaceRecog.png);
+  background-image: url(dailyDsa.png);
   
 }
 #project4 {
-  background-image: url(utubeclone.png);
+  background-image: url(FaceRecog.png);
   margin-left: 120px;
 }
 #project5 {
-  background-image: url(hotel.png);
+  background-image: url(utubeclone.png);
   
 }
 #project6 {
-  background-image: url(pro2.png);
+  background-image: url(hotel.png);
   margin-left: 120px;
+}
+#project7 {
+  background-image: url(pro2.png);
+  margin-right: 120px;
 }
 
 @media (max-width: 1300px) {
